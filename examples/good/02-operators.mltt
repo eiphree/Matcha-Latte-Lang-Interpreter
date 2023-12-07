@@ -1,0 +1,38 @@
+int main() {
+    int a = 5, b = 2;
+    print("a :");
+    print(a);
+    print("b :");
+    print(b);
+    print ("a + b :");
+    print (a + b);
+    print ("a - b :");
+    print (a - b);
+    print ("a * b :");
+    print (a * b);
+    print ("a / b :");
+    print (a / b);
+    print ("a % b :");
+    print (a % b);
+    print ("a <= b :");
+    print (a <= b);
+    print ("a > b :");
+    print (a > b);
+    print ("a == b :");
+    print (a == b);
+    print ("a != b :");
+    print (a != b);
+    print("-a :");
+    print(-a);
+    bool c = true, d = false;
+    print("c :");
+    print(c);
+    print("d :");
+    print(d);
+    print("not c :");
+    print(!c);
+    print("c || d :");
+    print(c || d);
+    print("c && d :");
+    print(c && d);
+}

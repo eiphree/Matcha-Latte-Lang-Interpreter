@@ -1,0 +1,18 @@
+int fact(int n) {
+    if (n < 2) {
+        return n;
+    }
+    else {
+        return (n * fact(n-1));
+    }
+}
+
+void hello() {
+    print("hello matcha latte");
+}
+
+int main() {
+    hello();
+    int f = fact(5);
+    print(f);
+}

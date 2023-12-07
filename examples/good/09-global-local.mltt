@@ -1,0 +1,19 @@
+int a = 7;
+
+void func(int a) {
+    print("a in function:");
+    print(a);
+}
+
+int main() {
+    print("global a:");
+    print(a);
+    func(17);
+    {
+        int a = 27;
+        print("a in block");
+        print(a);
+    }
+    print("global a:");
+    print(a);
+}

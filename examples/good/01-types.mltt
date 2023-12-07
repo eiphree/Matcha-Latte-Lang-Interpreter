@@ -1,0 +1,8 @@
+int main () {
+    int a = 7;
+    string str = "hello matcha latte";
+    bool b = true;
+    print (a);
+    print (str);
+    print(b);
+}

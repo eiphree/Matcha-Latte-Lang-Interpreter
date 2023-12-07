@@ -1,0 +1,15 @@
+void Incr(int b) {
+    b++;
+    print("value in function:");
+    print(b);
+}
+
+int main() {
+    int a = 7;
+    Incr(a);
+    print("value after function:");
+    print(a);
+    Incr(&a);
+    print("value after function:");
+    print(a);
+}

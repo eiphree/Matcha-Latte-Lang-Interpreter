@@ -1,0 +1,46 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           matcha-latte
+version:        0.1.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Eval
+      IM
+      InterpreterException
+      InterpreterUtils
+      Lang.AbsMatchalatte
+      Lang.LexMatchalatte
+      Lang.ParMatchalatte
+      RunIM
+      Types
+      Utils
+  other-modules:
+      Paths_matcha_latte
+  hs-source-dirs:
+      src
+  build-depends:
+      array
+    , base >=4.7 && <5
+    , containers
+    , mtl
+  default-language: Haskell2010
+
+executable interpreter
+  main-is: Main.hs
+  other-modules:
+      Paths_matcha_latte
+  hs-source-dirs:
+      app
+  build-depends:
+      array
+    , base >=4.7 && <5
+    , containers
+    , matcha-latte
+    , mtl
+  default-language: Haskell2010

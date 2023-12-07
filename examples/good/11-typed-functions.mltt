@@ -1,0 +1,27 @@
+void voidFunc() {
+    print("hello from a void function");
+}
+
+int intFunc(bool b, int a, int c) {
+    if (b) {
+        return a + c;
+    }
+    else {
+        return a - c;
+    }
+}
+
+bool boolFunc(bool b, int a, int c) {
+    return (b && a > c);
+}
+
+string stringFunc(string s) {
+    return (s);
+}
+
+int main() {
+    voidFunc();
+    print(intFunc(false, -7, 3));
+    print(boolFunc(true, 4, 5));
+    print(stringFunc("matcha"));
+}

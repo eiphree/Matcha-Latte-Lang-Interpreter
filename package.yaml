@@ -1,0 +1,20 @@
+name:                matcha-latte
+version:             0.1.0.0
+author:              "Agnieszka Pałka"
+
+
+dependencies:
+- base >= 4.7 && < 5
+- array >= 0
+- containers >= 0
+- mtl >= 0
+
+library:
+  source-dirs: src
+
+executables:
+  interpreter:
+    main:                Main.hs
+    source-dirs:         app
+    dependencies:
+    - matcha-latte

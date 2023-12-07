@@ -1,0 +1,7 @@
+string stringFunc(string s) {
+    return (s);
+}
+
+int main() {
+    print(stringFunc(7));
+}
